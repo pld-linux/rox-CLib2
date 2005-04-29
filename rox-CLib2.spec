@@ -15,6 +15,7 @@ BuildRequires:	glib2-devel >= 2.0.3
 BuildRequires:	gtk+2-devel >= 2.0.1
 BuildRequires:	libxml2-devel >= 2.4.0
 BuildRequires:	pkgconfig
+Requires:	rox >= 2.2.0-2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_appsdir	%{_libdir}/ROX-apps
@@ -84,7 +85,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Help/{Authors,Changes,README,ToDo,Versions}
 %attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_libdir}/librox-clib.so.*.*.*
-%attr(755,root,root) %dir %{_appsdir}
 %dir %{_appsdir}/%{_name}
 %attr(755,root,root) %{_appsdir}/%{_name}/AppRun
 %dir %{_appsdir}/%{_name}/%{_platform}
