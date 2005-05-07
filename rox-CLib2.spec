@@ -3,12 +3,12 @@
 Summary:	A library for ROX applications
 Summary(pl):	Biblioteka dla aplikacji ROXa
 Name:		rox-CLib2
-Version:	2.1.4
+Version:	2.1.5
 Release:	1
 License:	GPL v2
 Group:		X11/Libraries
 Source0:	http://www.kerofin.demon.co.uk/rox/ROX-CLib-%{version}.tar.gz
-# Source0-md5:	891dad75c0f5f98e4ef288bc6e417dd2
+# Source0-md5:	99a3aff882132cc859bd05aa6f154c04
 URL:		http://www.kerofin.demon.co.uk/rox/ROX-CLib.html
 BuildRequires:	X11-devel
 BuildRequires:	glib2-devel >= 2.0.3
