@@ -98,8 +98,8 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/*.so
-%{_roxdir}/%{_name}/Help/*.html
 %{_libdir}/*.la
+%{_roxdir}/%{_name}/Help/*.html
 %{_includedir}/%{_name}
 %{_pkgconfigdir}/*.pc
 
